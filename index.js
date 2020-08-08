@@ -1,6 +1,6 @@
 $(".scroll").click(function(event){
     event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+    $('html,body').animate({scrollTop:$(this.hash).offset().top-$(".navbar").height()}, 500);
 });
 
 $(".button").mousedown(function(){

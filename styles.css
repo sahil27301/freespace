@@ -42,7 +42,6 @@ body {
   font-size: 120%;
   color: white;
   font-weight: bold;
-  margin-top: 30px;
 }
 
 .hide:hover {
@@ -57,7 +56,7 @@ body {
 
 .year {
   background-color: #3b6978;
-  padding: 50px 0 50px 0;
+  padding: 20px 0 50px 0;
 }
 
 .instHead {
@@ -119,7 +118,7 @@ body {
 
 .subject{
   background-color: #84a9ac;
-  padding: 50px;
+  padding: 20px 0 50px 0;
 }
 
 .subjectButton {
@@ -138,7 +137,7 @@ body {
 }
 
 .topics {
-  padding: 50px;
+  padding: 20px 0 50px 0;
   background-color: #3b6978;
 }
 
@@ -158,7 +157,7 @@ body {
 }
 
 .dateAsked {
-  padding: 50px;
+  padding: 20px 0 50px 0;
   background-color: #84a9ac;
 }
 
@@ -178,7 +177,7 @@ body {
 }
 
 .examType {
-  padding: 50px;
+  padding: 20px 0 50px 0;
   background-color: #3b6978;
 }
 
