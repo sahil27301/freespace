@@ -1,0 +1,214 @@
+.button, body {
+  overflow-x: hidden;
+}
+
+body {
+  text-align:center;
+  background-color: #204051;
+  color: white;
+}
+
+.nav-item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.instructions{
+  background-color: #84a9ac;
+  padding: 50px;
+}
+
+.contactLink {
+  color: white;
+}
+
+.contactLink:hover {
+  color: white;
+}
+
+.heading {
+  padding: 30px;
+}
+
+.subHeading {
+  padding: 20px;
+}
+
+.year {
+  background-color: #3b6978;
+  padding: 50px 0 50px 0;
+}
+
+.instHead {
+  font-size: 180%;
+  line-height: 2;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.prompt {
+  font-size: 120%;
+  line-height: 2;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  outline: none;
+  border-width: 2px;
+  border-color: white;
+  font-size: 120%;
+  color: white;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+
+.buttonSelected {
+  transform:scale(0.80);
+  background-color: white;
+  color: black;
+}
+
+.button:active {
+  transform:scale(0.60);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.yearButton {
+  width: calc(100%);
+}
+
+.col-lg-3, .col-lg-2, .col-lg-4 {
+  padding: 10px;
+}
+
+.row {
+  padding: 20px;
+}
+
+.subject{
+  background-color: #84a9ac;
+  padding: 50px;
+}
+
+.subjectButton {
+  width: calc(100%);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.subjectSearch {
+  margin: 20px;
+  background-color:white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: gray;
+}
+
+.topics {
+  padding: 50px;
+  background-color: #3b6978;
+}
+
+.topicSearch {
+  margin: 20px;
+  background-color:white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: gray;
+}
+
+.topicButton {
+  width: calc(100%);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.dateAsked {
+  padding: 50px;
+  background-color: #84a9ac;
+}
+
+.dateSearch {
+  margin: 20px;
+  background-color:white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: gray;
+}
+
+.dateAskedButton {
+  width: calc(100%);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.examType {
+  padding: 50px;
+  background-color: #3b6978;
+}
+
+.examTypeButton {
+  width: calc(100%);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.contact {
+  padding: 50px 0 50px 0;
+  background-color: #343a40;
+}
+
+.timer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:hover {
+  color:#007bff;
+}
+
+hr {
+  width: 50%;
+  border-color: #00b7c2;
+  border-style: dotted none none none;
+  border-width: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.paper {
+  font-size: 250%;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.topicListDiv {
+  padding: 0 25% 0 25%;
+  text-align: left;
+}
+
+.push {
+  min-height: 100%;
+}
