@@ -34,6 +34,26 @@ body {
   padding: 20px;
 }
 
+.hide {
+  display: inline-block;
+  outline: none;
+  border-width: 2px;
+  border-color: white;
+  font-size: 120%;
+  color: white;
+  font-weight: bold;
+}
+
+.hide:hover {
+  background-color: white;
+  color:black;
+}
+
+.hide:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .year {
   background-color: #3b6978;
   padding: 50px 0 50px 0;
@@ -65,6 +85,7 @@ body {
 
 .button:hover {
   background-color: white;
+  color:black;
 }
 
 

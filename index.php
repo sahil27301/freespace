@@ -58,8 +58,9 @@
       </ul>
     </div>
     <div class="year container-fluid" id="year">
+      <button type="button" class="btn hide">hide</button>
+      <p class="prompt col-12">Select 0 or more years</p>
       <div class="row">
-        <p class="prompt col-12">Select 0 or more years</p>
           <?php
           $server = "localhost";
           $username = "root";
@@ -94,6 +95,7 @@
       $r=mysqli_query($conn,$sql);
     ?>
     <div class="subject container-fluid" id="subject">
+      <button type="button" class="btn hide">hide</button>
       <p class="prompt">Select 0 or more subjects</p>
       <input type="text" placeholder="Start typing to search" class="subjectSearch">
       <div class="row">
@@ -113,6 +115,7 @@
       mysqli_close($conn);
     ?>
     <div class="topics container-fluid" id="topics">
+      <button type="button" class="btn hide">hide</button>
       <p class="prompt">Select 0 or more topics</p>
       <input type="text" placeholder="Start typing to search" class="topicSearch">
       <div class="row">
@@ -137,6 +140,7 @@
       </div>
     </div>
     <div class="dateAsked container-fluid" id="dateAsked">
+      <button type="button" class="btn hide">hide</button>
       <p class="prompt">Select 0 or more years asked</p>
       <input type="text" placeholder="Start typing to search" class="dateSearch">
       <div class="row">
@@ -161,6 +165,7 @@
       </div>
     </div>
     <div class="examType container-fluid" id="examType">
+      <button type="button" class="btn hide">hide</button>
       <p class="prompt">Select 0 or more exam types</p>
       <div class="row">
           <?php

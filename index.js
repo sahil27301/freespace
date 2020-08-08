@@ -99,3 +99,13 @@ document.querySelector(".topicSearch").addEventListener("input", function(){
     }
   });
 });
+
+$(".hide").mousedown(function(){
+  if ($(this).text()=="hide") {
+    $(this).parent().children(".row, input").hide(700);
+    $(this).text("show");
+  }else {
+    $(this).parent().children(".row, input").show(700);
+    $(this).text("hide");
+  }
+});
