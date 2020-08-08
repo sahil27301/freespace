@@ -42,6 +42,7 @@ body {
   font-size: 120%;
   color: white;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 .hide:hover {

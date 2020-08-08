@@ -59,7 +59,7 @@
     </div>
     <div class="year container-fluid" id="year">
       <button type="button" class="btn hide">hide</button>
-      <p class="prompt col-12">Select 0 or more years</p>
+      <p class="prompt">Select 0 or more years</p>
       <div class="row">
           <?php
           $server = "localhost";
